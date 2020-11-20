@@ -1,0 +1,11 @@
+@import '../../../../../utils/scss/vars.scss';
+
+@media(min-width: $laptop-min) {
+  .optionsPanel__search-input {
+    width: 10.694444444vw;
+    height: 1.527777777vw;
+    font-size: 0.75vw;
+  }
+
+}
+

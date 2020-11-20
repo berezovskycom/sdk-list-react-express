@@ -1,0 +1,40 @@
+@import '../../../utils/scss/vars.scss';
+
+.sdkViewPanel {
+  height: 100%;
+  overflow-y: scroll;
+}
+
+.sdkViewPanel > .list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+.sdkViewPanel > .list .title {
+  margin-bottom: 0.5rem;
+}
+
+.sdkViewPanel__tags li {
+  margin-left: 2.5rem;
+}
+
+@media(max-width: $tablet-landscape) {
+  .sdkViewPanel > .list {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media(min-width: $laptop-min) {
+  .sdkViewPanel > .list {
+    gap: 2vw;
+  }
+  
+  .sdkViewPanel > .list .title {
+    margin-bottom: 0.5vw;
+  }
+
+  .sdkViewPanel__tags li {
+    margin-left: 2.5vw;
+  }  
+}

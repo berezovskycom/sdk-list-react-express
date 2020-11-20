@@ -1,0 +1,53 @@
+@import '../../utils/scss/vars.scss';
+
+.popup {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 75%;
+  height: 50%;
+  // max-width: 720px;
+  padding: 1rem 2rem 4rem 2rem;
+}
+
+.popup__title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding-bottom: 1rem;
+  margin-left: 2rem;
+}
+
+.popup__content {
+  height: 100%;
+  border: 2px solid #000;
+}
+
+@media(max-width: $tablet-landscape) {
+  .popup {
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: none;
+    width: 100%;
+    height: auto;
+  }
+
+}
+
+@media(min-width: $laptop-min) {
+  .popup {
+    padding: 1vw 2vw 4vw 2vw;
+  }
+  
+  .popup__content {
+    border-width: 0.125vw;
+  }
+
+  .popup__title {
+    padding-bottom: 1vw;
+    margin-left: 2vw;
+  }
+}
+
+

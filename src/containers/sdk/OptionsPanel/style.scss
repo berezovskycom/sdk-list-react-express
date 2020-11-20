@@ -1,0 +1,22 @@
+@import '../../../utils/scss/vars.scss';
+
+.optionsPanel__form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.optionsPanel__label {
+  margin-bottom: 0.75rem;
+  font-size: 0.875rem;
+  cursor: pointer;
+}
+
+@media(min-width: $laptop-min) {
+  .optionsPanel__label {
+    margin-bottom: 0.75vw;
+    font-size: 0.875vw;
+  }
+}
+
