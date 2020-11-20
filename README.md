@@ -6,7 +6,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 1. Use `git clone git@github.com:berezovskycom/sdk-list-react-express.git`;
 2. Access folder and install the dependencies `cd sdk-list-react-express && npm install`;
-3. Run `npm start` to view the development mode, or use `npm run server` to run production mode.
+3. Run `npm start` to view the development mode, or use `npm run server` to run production mode (visit `http://localhost:8080`).
 
 ### Technologies Used:
 
@@ -38,4 +38,4 @@ Lints js files with eslint
 
 ### `npm run server`
 
-Start a production server
+Start a production server at `http://localhost:8080`
